@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet Manager</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+
+      label {
+        display: block;
+        margin-top: 10px;
+      }
+
+      button {
+        margin-top: 15px;
+        padding: 8px 12px;
+        cursor: pointer;
+      }
+
+      ul {
+        margin-top: 20px;
+        padding: 0;
+        list-style: none;
+      }
+
+      li {
+        background: #f0f0f0;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 8px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Registrazione Animali Domestici</h1>
+
+    <form id="pet-form">
+      <label
+        >Nome animale:
+        <input type="text" id="petName" required />
+      </label>
+
+      <label
+        >Nome proprietario:
+        <input type="text" id="ownerName" required />
+      </label>
+
+      <label
+        >Specie:
+        <input type="text" id="species" required />
+      </label>
+
+      <label
+        >Razza:
+        <input type="text" id="breed" required />
+      </label>
+
+      <button type="submit">Aggiungi Animale</button>
+    </form>
+
+    <h2>Lista animali registrati:</h2>
+    <ul id="pet-list"></ul>
+
+    <script src="./ex2.js"></script>
+  </body>
+</html>
