@@ -21,6 +21,3 @@ class User {
 
 const user1 = new User("Mario", "Rossi", 40, "Roma")
 const user2 = new User("Giulia", "Verdi", 35, "Milano")
-
-user1.confrontaEtà(user2)
-user2.confrontaEtà(user1)
